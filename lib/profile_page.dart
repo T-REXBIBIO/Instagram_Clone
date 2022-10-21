@@ -15,7 +15,7 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    var photoList = [
+    final photoList = [
       _photoItem("https://m.media-amazon.com/images/I/51cSgpPQAPL.jpg"),
       _photoItem("https://m.media-amazon.com/images/I/51tL8edlGrL._SX342_SY445_QL70_ML2_.jpg"),
       _photoItem("https://tc-animate.techorus-cdn.com/resize_image/resize_image.php?image=08051451_5f2a48d60aba5.jpg&width=500"),
