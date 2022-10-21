@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:instagramclone/profile_page.dart';
+import 'package:instagramclone/screen/profile_page.dart';
+import 'package:instagramclone/widget/bottom_navigation.dart';
 
 
 void main() {
