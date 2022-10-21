@@ -87,6 +87,8 @@ class ShopPage extends StatelessWidget {
           Expanded(
             child: GridView.count(
                 crossAxisCount: 2,
+              mainAxisSpacing: 2,
+              crossAxisSpacing: 2,
               children: shopItemList,
             ),
           )
